@@ -1,0 +1,88 @@
+# Arquivos e pastas gerais
+*.log
+*.pot
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.DS_Store
+Thumbs.db
+
+# Python/Flask (backend)
+# Dependências do Python
+venv/
+env/
+.virtualenv/
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.whl
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Flask
+instance/
+.webassets-cache
+*.sqlite
+
+# Vue.js (frontend)
+# Dependências do Node.js
+questao_quatro/frontend/operadoras-web/node_modules/
+questao_quatro/frontend/operadoras-web/npm-debug.log
+questao_quatro/frontend/operadoras-web/yarn-error.log
+questao_quatro/frontend/operadoras-web/yarn-debug.log
+
+# Arquivos de build do Vue.js
+questao_quatro/frontend/operadoras-web/dist/
+questao_quatro/frontend/operadoras-web/build/
+questao_quatro/frontend/operadoras-web/.cache/
+questao_quatro/frontend/operadoras-web/.cache-loader/
+questao_quatro/frontend/operadoras-web/.temp/
+questao_quatro/frontend/operadoras-web/.nuxt/
+questao_quatro/frontend/operadoras-web/static/sw.js
+
+# Arquivos de configuração do ambiente
+questao_quatro/frontend/operadoras-web/.env
+questao_quatro/frontend/operadoras-web/.env.local
+questao_quatro/frontend/operadoras-web/.env.development
+questao_quatro/frontend/operadoras-web/.env.production
+
+# Arquivos de testes e cobertura
+questao_quatro/frontend/operadoras-web/coverage/
+questao_quatro/frontend/operadoras-web/test-report.xml
+questao_quatro/frontend/operadoras-web/cypress/videos/
+questao_quatro/frontend/operadoras-web/cypress/screenshots/
+
+# Editor e IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Outros
+*.lock
+package-lock.json
+yarn.lock
