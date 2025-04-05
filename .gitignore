@@ -43,6 +43,10 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 
+# Arquivos de dados sensíveis
+questao_quatro/data/Relatorio_cadop.csv
+questao_quatro/data/*.csv
+
 # Flask
 instance/
 .webassets-cache
